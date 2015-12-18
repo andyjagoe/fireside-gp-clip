@@ -32,7 +32,8 @@ gp-clip does not modify original files in any way. It makes a new file and clean
 
 ### Using gp-clip
 
-To generate a clip without adding GPS data to it, run from the command line: 
+To generate a clip without adding GPS data to it, run from the command line:
+ 
 ```./gp-clip.sh -s HH:MM:SS -t HH:MM:SS FILENAME```
 
 The -s or --start option specifies the point in time to start your clip. The -t or --time option specifies how long the clip should be. Both options use a zero padded time string where hours, minutes and seconds are separated by colon. For example, 00:01:30 is 1 minute 30 seconds. 00:00:45 is 45 seconds.
